@@ -21,7 +21,7 @@ public class SimuladorFarmacia {
         return precio * piezas;
     }
     // Esto calcula el descuento
-    // Nota parq eue lo recuerde :3: Operador "? :" -> es una forma facil y simple de escribir estructuras if-else simples 
+    // Nota parq eue lo recuerde :3: Operador ternario "? :" -> es una forma facil y simple de escribir codigo que funciona de manera similar a un if-else simples 
     // Sintaxis: condición ? valor_si_verdadero : valor_si_falso;
     public double Descuento() {
         var total_descuento = Precio_Total();
