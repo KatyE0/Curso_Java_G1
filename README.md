@@ -1,10 +1,10 @@
 # Evidencias de RETOS
 
-## Descripción
+## 🤍 Descripción
 Este repositorio es para mostrar los actividades (RETOS) realizados durante mi particpacion en el curso "Java-Standar-Edition-1-2025"
 
 
-## Indice
+## 🤍 Indice
 | Sección | Nombre | Link |
 |---|---|---|
 | 1 | Reto 01: Registro básico de pacientes | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Reto_01) |
