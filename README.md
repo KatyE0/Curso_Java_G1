@@ -13,8 +13,8 @@ Este repositorio es para mostrar los actividades (RETOS) realizados durante mi p
 | 2 | Reto 01: Simulador de farmacia con descuento | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_02/Reto_01) |
 | 2 | Reto 02: Cajero automático simple | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_02/Reto_02) |
 |---|---|---|
-| 3 | Reto_01 | |
-| 3 | Reto_02 | |
+| 3 | Reto_01 | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_03/Reto_01) |
+| 3 | Reto_02 | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_03/Reto_02)|
 
 ---
 Hecho con 🤍 por Karina Escalante
