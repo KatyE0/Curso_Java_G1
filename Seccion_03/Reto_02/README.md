@@ -8,6 +8,7 @@ El reto consiste en modelar una factura sencilla, que contenga los datos básico
 
 ## 🤍 Salida esperada 
 ```bash
+javac Factura.java
 javac Main.java
 java Main
 
@@ -22,3 +23,6 @@ RFC: ABC123456789
 Monto: $2000.0
 Descripción: Servicio de limpieza
 RFC: [No proporcionado]
+```
+---
+Hecho con 🤍 por Karina Escalante
