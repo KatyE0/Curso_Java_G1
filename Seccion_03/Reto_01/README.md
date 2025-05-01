@@ -1,24 +1,46 @@
-# Reto 02: Factura con RFC opcional
+# Reto 01: Reserva de vuelos
 
 ## 🤍 Descripción
-El reto consiste en modelar una factura sencilla, que contenga los datos básicos de una compra y, opcionalmente, el RFC del cliente. Se deberá proteger el acceso a los atributos y permitir el uso seguro de null a través de Optional.
+El reto consiste en simular un sistema donde un pasajero puede reservar un asiento en un vuelo, consultar su itinerario y cancelar la reserva si así lo desea.
 
 ## 🤍 Objetivos
-- Diseñar una clase Factura aplicando los principios de encapsulación con modificadores de acceso y utilizando la clase Optional para manejar valores que pueden ser nulos, como el RFC del cliente.
+- Diseñar un sistema básico de reservas de vuelo aplicando los fundamentos de la Programación Orientada a Objetos en Java. Practicarás la creación de clases y objetos, el uso de atributos static y final, así como la definición de métodos con parámetros y valores de retorno.
 
 ## 🤍 Salida esperada 
 ```bash
+javac Vuelos.java
+javac Pasajero.java
 javac Main.java
 java Main
 
-°°°°° Factura °°°°°°
+°°°°°°°°°° Reservación de vuelos °°°°°°°°°° 
 
-Monto: $1500.0
-Descripción: Compra de equipo
-RFC: ABC123456789
+Reserva realizada :) 
 
-°°°°° Factura °°°°°°
+°°°° Itinerario del vuelo °°°° 
 
-Monto: $2000.0
-Descripción: Servicio de limpieza
-RFC: [No proporcionado]
+Vuelo: Kary123-Vuelos
+Destino: Nueva York
+Salida: 15:30
+Pasajero: Daniela Gonzalez 12345678A
+
+RESERVA CANCELADA :(
+
+°°°° Itinerario del vuelo °°°° 
+
+Vuelo: Kary123-Vuelos
+Destino: Nueva York
+Salida: 15:30
+Pasajero: No hay reserva
+
+Reserva realizada :)
+
+°°°° Itinerario del vuelo °°°°
+
+Vuelo: Kary123-Vuelos
+Destino: Nueva York
+Salida: 15:30
+Pasajero: Diana Olmos
+```
+---
+Hecho con 🤍 por Karina Escalante
