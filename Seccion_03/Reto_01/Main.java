@@ -7,6 +7,7 @@ public class Main {
         Pasajero pasajero1 = new Pasajero("Daniela Gonzalez", "12345678A");
         
         // Reservar asiento para el pasajero
+        System.out.println("\n °°°°°°°°°° Reservación de vuelos °°°°°°°°°° \n");
         boolean reservaExitosa = vuelo1.reservarAsiento(pasajero1);
         System.out.println(reservaExitosa ? "Reserva realizada :) " : "Error: Asiento ya reservado :(");
 

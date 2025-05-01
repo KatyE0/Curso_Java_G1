@@ -25,7 +25,7 @@ public class Vuelos {
     // Este es el método sobrecargado para reservar asiento
     public boolean reservarAsiento(Pasajero p) {
         if (asientoReservado == null) {
-            asientoReservado = p.getNombre() + " " + p.getPasaporte();
+            asientoReservado = p.getNombre();
             return true;
         } else {
             return false;
@@ -35,12 +35,12 @@ public class Vuelos {
     // Método para cancelar reserva
     public void cancelarReserva() {
         asientoReservado = null;
-        System.out.println("❌ Cancelando reserva...");
+        System.out.println("RESERVA CANCELADA :(");
     } 
     
     // Método para obtener itinerario
     public String obtenerItinerario() {
-        return "\n Itinerario del vuelo \n\nVuelo: " + codigoVuelo + "\nDestino: " + destino + "\nSalida: " + horaSalida +
+        return "\n°°°° Itinerario del vuelo °°°° \n\nVuelo: " + codigoVuelo + "\nDestino: " + destino + "\nSalida: " + horaSalida +
                "\nPasajero: " + (asientoReservado != null ? asientoReservado : "No hay reserva") + "\n";
     }
 
