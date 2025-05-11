@@ -1,4 +1,4 @@
-# Reto 01: Sistema de emergencia
+# Reto 02: Sistema de pago con múltiples métodos
 
 ## 🤍 Descripción
 Este reto simula un módulo para una tienda en línea. El sistema debe permitir procesar pagos mediante diferentes medios: efectivo, tarjeta bancaria o transferencia. Cada tipo de pago debe implementar su lógica de validación y confirmación, pero todos siguen un contrato general. Además, se debe permitir que en el futuro puedan agregarse nuevos métodos sin modificar los ya existentes (principio de extensión).
