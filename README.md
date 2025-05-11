@@ -17,6 +17,10 @@ Este repositorio es para mostrar los actividades (RETOS) realizados durante mi p
 | 3 | Reto 02: Factura con RFC opcional | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_03/Reto_02)|
 |---|---|---|
 | 4 | Reto 01: Registro y comparación de facturas | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_04/Reto_01) |
-| 4 |Reto 02: Comparación de declaraciones | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_04/Reto_02)|
+| 4 | Reto 02: Comparación de declaraciones | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_04/Reto_02)|
+|---|---|---|
+| 5 | Reto 01: Sistema de emergencia | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_05/Reto_01) |
+| 5 | Reto 02: Sistema de pago con múltiples métodos | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_05/Reto_02)|
+
 ---
 Hecho con 🤍 por Karina Escalante
