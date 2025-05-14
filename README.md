@@ -5,7 +5,7 @@ Este repositorio es para mostrar los actividades (RETOS) realizados durante mi p
 
 
 ## 🤍 Indice
-| Sección | Nombre | Link |
+| Sesión | Nombre | Link |
 |---|---|---|
 | 1 | Reto 01: Registro básico de pacientes | [Reto_01](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_01/Reto_01) |
 | 1 | Reto 02: Registro básico de entradas | [Reto_02](https://github.com/KatyE0/Curso_Java_G1/tree/main/Seccion_01/Reto_02) |
