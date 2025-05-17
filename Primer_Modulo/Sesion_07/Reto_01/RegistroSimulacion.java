@@ -2,6 +2,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class RegistroSimulacion {
 
@@ -11,6 +12,23 @@ public class RegistroSimulacion {
     }
 
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("°°°° Actualización de parametros :3 °°°°° \n");
+        
+        // Solicitar datos al usuario
+        System.out.print("Ingrese el tiempo de ciclo (segundos): ");
+        String tiempo = scanner.nextLine();
+        
+        System.out.print("Ingrese la velocidad de línea (m/s): ");
+        String velocidad = scanner.nextLine();
+        
+        System.out.print("Ingrese el número de estaciones: ");
+        String estaciones = scanner.nextLine();
+
+        scanner.close(); 
+
 
         //Definir la ruta del archivo parametros.txt dentro de la carpeta config/
         Path rutaCarpeta = Paths.get("config"); //Se usa una ruta carpeta para poder evaluar si dicha carpeta existe
@@ -24,7 +42,7 @@ public class RegistroSimulacion {
             }
 
             // Escribir el contenido en el archivo
-            Files.write(rutaArchivo,Parametros("55.8", "1.2","8").getBytes()); //Aqui se ingresan los parametros deseados
+            Files.write(rutaArchivo,Parametros(tiempo, velocidad, estaciones).getBytes()); //Aqui se ingresan los parametros deseados
             //Como se usa Files.write, esto sobreescribe el archivo y si no existe lo crea
 
             // Validar si el archivo fue creado
