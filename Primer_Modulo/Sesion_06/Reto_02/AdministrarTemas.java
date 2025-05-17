@@ -15,13 +15,14 @@ public class AdministrarTemas {
     }
 
     public void registrarTemas() {
-        System.out.print("¿Cuántos temas quieres registrar? "); //Pedimos al usuario que indique el numero de temas que va a consultar
+        System.out.println("°°°°°°° Registro de temario °°°°°°° ");
+        System.out.print("\n¿Cuántos temas quieres registrar? "); //Pedimos al usuario que indique el numero de temas que va a consultar
         int cantidad = scanner.nextInt();
         scanner.nextLine();
 
         // Utilizo un ciclo para tomar y resgistrar los datos
         for (int i = 1; i <= cantidad; i++) {
-            System.out.print("Nombre del tema: ");
+            System.out.print("\nNombre del tema: ");
             String nombre = scanner.nextLine();
 
             System.out.print("Prioridad (1 = urgente, 2 = importante, 3 = opcional): ");
@@ -36,7 +37,7 @@ public class AdministrarTemas {
     public void OrdenarTemas(){
         // Ordenando los datos alfabeticamente
         Collections.sort(temas); //Uso Collectons.short para ordenar por el orden natural (alfabeticamente ya que son datos String)
-        System.out.println("Temas ordenados alfabeticamente:");
+        System.out.println("\nTemas ordenados alfabeticamente:\n");
         //Utilizo un ciclo para imprimir los datos ordenados
         for (Tema t : temas) { //Utilizo Tema para que imprima el formato que declare en la clase Tema.java
             System.out.println(t);
@@ -54,7 +55,7 @@ public class AdministrarTemas {
         });
 
         //Imprimiendo.... :3
-        System.out.println("\nTemas ordenados por prioridad (1 = urgente, 2 = importante, 3 = opcional):");
+        System.out.println("\nTemas ordenados por prioridad (1 = urgente, 2 = importante, 3 = opcional):\n");
         for (Tema t : temas) {
             System.out.println(t);
         }

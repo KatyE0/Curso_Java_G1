@@ -1,4 +1,4 @@
-//import java.util.Collection;
+
 //Con esta clase se implementa la intefaz de comparable
 public class Tema implements Comparable<Tema> {
     //Atributos

@@ -24,7 +24,7 @@ public class AdministrarRecursos {
     }
 
     public void mostrarRecursos() {
-        System.out.println("\nRepositorio de recursos por tema:");
+        System.out.println("\nRepositorio de recursos por tema:\n");
         for (String tema : recursos.keySet()) {
             System.out.println(tema + " → " + recursos.get(tema));
         }
