@@ -1,0 +1,2 @@
+Upps!!!. Se produjo un error al leer el archivo 'errores.log' 
+Error:errores.log
