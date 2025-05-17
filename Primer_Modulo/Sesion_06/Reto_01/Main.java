@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import java.util.Scanner;
 import java.util.*;
 
@@ -76,8 +74,6 @@ public class Main {
         String encargado = especieEncargado.get(especieBuscada); // Ya que sabemos que especie es, buscamos el encargado de la especie
 
         System.out.println("\n Investigador responsable de la muestra " + idBuscar + ": " + encargado); //Imprimimos :)
-
-
 
         scanner.close();
 
