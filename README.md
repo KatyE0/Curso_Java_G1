@@ -1,7 +1,7 @@
 # 🩷 Evidencias de RETOS 🩷
 
 ## 🤍 Descripción
-Este repositorio es para mostrar los actividades (RETOS) realizados durante mi particpacion en el curso "Java-Standar-Edition-1-2025"
+Este repositorio es para mostrar los actividades (RETOS) realizados durante el primer modulo "Java Básico", como parte de mi particpacion en el curso "Java-Standar-Edition-1-2025"
 
 
 ## 🤍 Indice
